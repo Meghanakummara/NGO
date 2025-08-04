@@ -20,11 +20,7 @@ project/
 ├── backend/ # Node.js + Express + MongoDB
 └── frontend/ # React app with routing and forms
 
-yaml
-Copy
-Edit
 
----
 
 ## ✅ Requirements
 
@@ -42,23 +38,17 @@ Edit
    cd backend
 Install dependencies:
 
-bash
-Copy
-Edit
+command:
 npm install
 Start MongoDB on your system (default runs on mongodb://localhost:27017).
 
 Start the backend server:
 
-bash
-Copy
-Edit
+command:
 node server.js
 Or, if you want auto-reload:
 
-bash
-Copy
-Edit
+command:
 npm install -g nodemon
 nodemon server.js
 📍 Backend will run at http://localhost:5000
@@ -66,21 +56,15 @@ nodemon server.js
 💻 Frontend Setup
 Open a new terminal and go to the frontend folder:
 
-bash
-Copy
-Edit
+command:
 cd frontend
 If not already created, create the app:
 
-bash
-Copy
-Edit
+command:
 npx create-react-app .
 Install frontend dependencies:
 
-bash
-Copy
-Edit
+command:
 npm install axios react-router-dom
 Replace the contents of:
 
@@ -90,9 +74,7 @@ Add components: Home.js, RegisterForm.js, AdminView.js + CSS files
 
 Start the React frontend:
 
-bash
-Copy
-Edit
+command:
 npm start
 📍 Frontend will run at http://localhost:3000
 
@@ -103,6 +85,4 @@ Use the “Register” button to apply.
 
 Visit “Admin View” to see all applicants.
 
-markdown
-Copy
-Edit
+
